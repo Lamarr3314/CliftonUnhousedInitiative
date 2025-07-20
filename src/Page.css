@@ -1,0 +1,53 @@
+.Page {
+  height: 100vh;
+  width: 98vw;
+  margin-top: 200px;
+  padding-left: 1vw;
+  scroll-snap-align: start;
+  display: flex;
+}
+.overallTitle {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #1d4a84;
+}
+.overallParagraph {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+.informationTile {
+  border-radius: 10px;
+  box-shadow: 2px 2px 9px 0px #1d4a84;
+  width: 60vw;
+  text-align: center;
+}
+@media (max-width: 1400px) {
+  .informationTile {
+    width: 85vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .overallParagraph {
+    font-size: 1.25rem;
+  }
+  .informationTile {
+    width: 85vw;
+  }
+}
+@media (max-width: 700px) {
+  .informationTile {
+    width: 90vw;
+  }
+  .overallTitle {
+    font-size: 2rem;
+  }
+  .overallParagraph {
+    font-size: 0.75rem;
+  }
+}

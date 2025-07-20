@@ -1,0 +1,35 @@
+#Data {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+#prevArrow {
+  transform: rotate(180deg);
+}
+.arrow {
+  height: 40px;
+  background-color: transparent;
+}
+.arrowButton {
+  background-color: transparent;
+  border: none;
+}
+.arrowButton:hover {
+  cursor: pointer;
+}
+#mainData {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+#dataComponent {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+.arrowContainer {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,40 @@
+#Contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+#contactTitle {
+  text-align: center;
+}
+#contactIcon {
+  width: 60px;
+}
+#mainContactTile {
+  box-shadow: 2px 2px 9px 0px #1d4a84;
+  width: 70vw;
+}
+#centerContactTile {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#purpleContactTile {
+  box-shadow: 2px 2px 9px 0px #8f1eba;
+}
+#contactRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#contactIconDiv{
+  margin-left: 15%;
+}
+#contactNameDiv{
+  width: 100%;
+}
+@media (max-width: 700px) {
+  #contactIcon {
+    width: 40px;
+  }
+}

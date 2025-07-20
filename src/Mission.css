@@ -1,0 +1,17 @@
+#Mission {
+  /* background-color: #8f1eba; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#textContainer {
+  /* border: 1px solid black; */
+  padding: 5px;
+}
+#einContainer {
+  margin-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
