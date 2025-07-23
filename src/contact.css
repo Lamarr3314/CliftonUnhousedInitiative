@@ -27,14 +27,17 @@
   flex-direction: row;
   align-items: center;
 }
-#contactIconDiv{
+#contactIconDiv {
   margin-left: 15%;
 }
-#contactNameDiv{
+#contactNameDiv {
   width: 100%;
 }
 @media (max-width: 700px) {
   #contactIcon {
     width: 40px;
+  }
+  #contactIconDiv {
+    margin-left: 5%;
   }
 }

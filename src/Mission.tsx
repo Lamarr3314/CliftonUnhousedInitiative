@@ -1,8 +1,6 @@
 import React from "react";
 import "./Mission.css";
 import "./Page.css";
-import logoWithText from "./assets/logoWithText.png";
-import logoNoText from "./assets/logoNoText.png";
 
 const Mission: React.FC = () => {
   return (

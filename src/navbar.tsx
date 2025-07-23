@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import logoWithText from "./assets/logoWithText.png";
 import dropDownIcon from "./assets/DropDownIcon.png";
-import logoNoText from "./assets/logoNoText.png";
 
 const Navbar: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);

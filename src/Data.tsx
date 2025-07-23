@@ -23,7 +23,7 @@ const SecondComponent: React.FC = () => (
       One in every three individuals experiencing homelessness reported having
       experienced chronic patterns of homelessness, or 152,585 . On the night of
       January 24, 2024 12,680 people were experiencing homelessness in the state
-      of New Jersey, up 24% from 2023. Sady this population is growing.
+      of New Jersey, up 24% from 2023. Sadly this population is growing.
       (Supported by Google search) These numbers are more than statistics, they
       represent human lives,each with a story, a struggle,and a need for
       support. These numbers are growing daily.
@@ -53,7 +53,9 @@ const Data: React.FC = () => {
     setIndex((prevIndex) => (prevIndex + 1) % components.length);
   };
   const handlePrev = () => {
-    setIndex((prevIndex) => Math.abs((prevIndex - 1) % components.length));
+    setIndex((prevIndex) =>
+      Math.abs((prevIndex + components.length - 1) % components.length)
+    );
   };
 
   const CurrentComponent = components[index];

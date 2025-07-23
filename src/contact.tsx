@@ -19,6 +19,9 @@ const Contact: React.FC = () => {
           <div id="contactNameDiv">
             <p className="overallParagraph">Director: Margaret Curreri</p>
           </div>
+          <div id="contactNameDiv">
+            <p className="overallParagraph">Vice President: George Curreri</p>
+          </div>
         </div>
       </div>
       <div id="centerContactTile" className="informationTile">
@@ -51,11 +54,11 @@ const Contact: React.FC = () => {
           </div>
         </div>
       </div>
-      <div  className="informationTile">
+      <div className="informationTile">
         <div id="contactNameDiv">
           <p className="overallParagraph">
             We are gratefully accepting donations. All contributions are tax
-            deductible.{" "}
+            deductible.
           </p>
         </div>
       </div>

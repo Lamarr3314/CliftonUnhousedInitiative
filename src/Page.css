@@ -1,5 +1,5 @@
 .Page {
-  height: 100vh;
+  height: 90vh;
   width: 98vw;
   margin-top: 200px;
   padding-left: 1vw;
@@ -26,15 +26,10 @@
   width: 60vw;
   text-align: center;
 }
-@media (max-width: 1400px) {
-  .informationTile {
-    width: 85vw;
-  }
-}
 
-@media (max-width: 1000px) {
+@media (max-width: 1625px) {
   .overallParagraph {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   .informationTile {
     width: 85vw;
@@ -45,7 +40,7 @@
     width: 90vw;
   }
   .overallTitle {
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
   .overallParagraph {
     font-size: 0.75rem;
