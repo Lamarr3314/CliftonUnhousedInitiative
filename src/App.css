@@ -5,6 +5,8 @@
 * {
   -ms-overflow-style: none;
   scrollbar-width: none;
+  /* color: #1d4a84; */
+  color: black;
 }
 
 #root {
