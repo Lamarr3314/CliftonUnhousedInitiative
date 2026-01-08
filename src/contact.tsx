@@ -40,7 +40,7 @@ const Contact: React.FC = () => {
             <img id="contactIcon" src={phone} alt="Contact Icon" />
           </div>
           <div id="contactNameDiv">
-            <p className="overallParagraph"> 973.317.8722</p>
+            <p className="overallParagraph"> 973.464.4380</p>
           </div>
         </div>
         <div id="contactRow">
